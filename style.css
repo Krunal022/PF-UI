@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+    justify-content: flex-end;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+#intro{
+    height: 45%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding: 55px 60px;
+}
+#intro h1{
+    font-size: 120px;
+    line-height: 130px;
+    letter-spacing: -3px;
+}
+#place{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3{
+    font-size: 22px;
+}
+#hero-img{
+    height: 87%;
+    width: 100%;
+    background-image: url(IMG-20230212-WA0015.jpg);
+    background-size: cover;
+}
+#about{
+    height: 45%;
+    width: 100%;
+    /* background-color: rgb(217, 246, 111); */
+    display: flex;
+    align-items: center;
+    padding: 50px 60px;
+    justify-content: space-between;
+}
+#about h2{
+    /* background-color: red; */
+    font-size: 75px;
+    width: 65%;
+    font-weight: 570;
+    line-height: 82px;
+}
+#about-part2{
+    width: 30%;
+    /* background-color: red; */
+    height: 100%;
+    padding: 0 60px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about-part2 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+#icons i{
+    padding: 10px;
+    size: 25px;
+    background-color: black;
+    color: white;
+    border-radius:50px;
+    margin: 7px;
+}
+#work{
+    border-top: 2px solid black;
+    height: 55%;
+    width: 100%;
+    display: flex;
+    padding: 40px 30px;
+}
+#work1{
+    font-weight: 600;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    padding-right: 60px;
+    justify-content: space-between;
+    border-right: 2px solid black;
+}
+#work1,h3{
+    font-size: 30px;
+}
+#work i{
+    font: 30px;
+}
+#work2{
+    height: 100%;
+    width: 75%;
+    padding: 50px 50px;
+}
+.work2-part1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.work2-part2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.work2-part-2 .elem{
+    border-left: 2px solid black;
+}
+.work2-part-2 .elem{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+.work2-part1 .elem :nth-child(2){
+    border-right: 2px solid black;
+}
+#icons{
+    text-decoration: none;
+}
+
+
