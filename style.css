@@ -99,6 +99,7 @@ html,body{
     width: 100%;
     display: flex;
     padding: 40px 30px;
+    border-bottom: 2px solid black;
 }
 #work1{
     font-weight: 600;
@@ -109,8 +110,9 @@ html,body{
     justify-content: space-between;
     border-right: 2px solid black;
 }
-#work1,h3{
+#work1 h3{
     font-size: 30px;
+    font-weight: 500;
 }
 #work i{
     font: 30px;
@@ -119,30 +121,47 @@ html,body{
     height: 100%;
     width: 75%;
     padding: 50px 50px;
+    background-color: ye;
 }
-.work2-part1{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;    
-}
-.work2-part2{
+
+.work2-part{
+    /* background-color: red; */
     display:flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0;    
+    /* background-color: red; */
 }
-.work2-part-2 .elem{
-    border-left: 2px solid black;
+.work2-part:nth-child(1){
+    /* background-color: rebeccapurple;  */
+    border-bottom: 2px solid black;
 }
-.work2-part-2 .elem{
-    background-color: red;
+.work2-part #elem{
     width: 50%;
-    height: 100%;
 }
-.work2-part1 .elem :nth-child(2){
+.work2-part #elem:nth-child(1){
+    padding-right: 20px;
+    padding-top: 0;
     border-right: 2px solid black;
 }
-#icons{
-    text-decoration: none;
+.work2-part #elem:nth-child(2){
+    padding-left: 60px;
 }
+.work2-part #elem h4{
+    font-weight: 550;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.work2-part #elem p{
+    /* font-weight: 550; */
+    font-size: 18px;
+    color: rgba(93, 88, 88, 0.671);
+}
+#btm{
+    width: 100%;
+    height: 10%;
+    /* background-color: yellow; */
+    padding: 50px 60px;
 
+}
 
